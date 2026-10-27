@@ -8,8 +8,8 @@ Página responsiva em português, construída com HTML, CSS e JavaScript, sem de
 
 ## Experiência
 
-- Logo obtida do perfil oficial da pousada no Linktree.
-- Fotografia aérea da praia e fotos reais das acomodações nos anúncios da pousada no Airbnb.
+- Logo obtida do perfil oficial da pousada no Linktree, agora com fundo transparente em PNG.
+- Fotografia aérea da Praia de Cima, na Pinheira, em 4032 × 3024 pixels, e fotos reais das acomodações nos anúncios da pousada no Airbnb.
 - Movimento suave no fundo durante a rolagem, entradas de seções e revelação das fotografias.
 - Preferência do sistema por movimento reduzido respeitada.
 - Acomodações com links próprios para os apartamentos 01, 02 e 03 e para a casa com piscina.
@@ -35,6 +35,8 @@ node --check dist/app.js
 ```
 
 ## Publicar
+
+A configuração `vercel.json` define o framework como estático e o diretório de saída como `dist`, sem etapa de compilação. Para uma nova publicação na Vercel, importe este repositório ou execute a CLI autenticada na pasta do projeto, confirmando a conta e o projeto de destino.
 
 O diretório publicável é `dist/`. Ele contém o site completo e pode ser servido por uma hospedagem estática. Não há instalação de pacotes, banco de dados ou variáveis secretas.
 
@@ -86,7 +88,9 @@ As paisagens de referência têm créditos e licenças indicados no modal “Cr�
 - Eliezer Pedroso — Praia da Pinheira, CC BY 3.0, captura em 22/02/2014.
 - Emilio Coatti — Guarda do Embaú, CC BY-SA 3.0, captura em 18/11/2012.
 
-As imagens da região foram apenas redimensionadas e convertidas para WebP. O enquadramento visual varia por CSS conforme a tela. O arquivo original da logo no Linktree já tem o lettering parcialmente cortado nas laterais; a página usa esse arquivo sem reconstruir a marca.
+A fotografia aérea da Praia de Cima, na Pinheira, foi obtida de https://vitrinepinheira.com.br/praias/praia-de-cima, arquivo https://vitrinepinheira.com.br/fotos/praias/praia_de_cima2.jpeg. A data de captura não foi informada.
+
+As imagens da região foram apenas redimensionadas e convertidas para WebP. O enquadramento visual varia por CSS conforme a tela. O arquivo original da logo no Linktree já tem o lettering parcialmente cortado nas laterais. A versão PNG teve apenas o fundo removido com a ferramenta de edição de imagens integrada; não foram completadas as partes cortadas. O arquivo e o pedido de edição estão registrados em `research-logo.json`.
 
 ## Verificação
 

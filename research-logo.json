@@ -1,0 +1,11 @@
+{
+  "path": "dist/assets/logo-transparente.png",
+  "source": "dist/assets/logo-oficial-linktree.jpeg",
+  "mode": "built-in image_gen",
+  "edit": "Remover apenas o fundo branco, preservando o sol, a casa, os pássaros, as ondas, o texto e os limites do arquivo original; saída PNG com transparência real e bordas suaves.",
+  "alpha_verified": true,
+  "dimensions": [
+    1254,
+    1254
+  ]
+}

@@ -31,4 +31,6 @@ dialog{border:0;padding:50px;background:var(--paper);color:var(--ink);max-width:
 @media(max-width:680px){.hero-visual{inset:-38% -33% -8% -18%}}
 
 .intro-copy{font-size:14px}.stay-info>p{font-size:12px}.house-copy p{font-size:12px}.faq-list details p{font-size:12px}
+.brand-logo,.header .brand-logo{background:transparent}.hero-visual{inset:-10% 0 -10%}.hero-image{object-position:50% 45%}.destination-card img[src$="pinheira-aerea.webp"]{object-position:center 38%}
+@media(max-width:680px){.hero-visual{inset:-10% -24% -10% -12%}.hero-image{object-position:85% 42%}}
 @media(max-width:680px){.intro-copy{font-size:13px}.section-heading>p{font-size:12px}.stay-info>p,.house-copy p{font-size:12px}.stays-note{font-size:10px}.location-copy p{font-size:13px}.faq-list summary,.faq-list details p{font-size:12px}.destination-caption p{font-size:11px}.gallery-end p{font-size:10px}.contact-bottom p{font-size:12px}.reservation-dialog>p{font-size:12px}}

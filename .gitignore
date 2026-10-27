@@ -3,6 +3,7 @@ node_modules/
 *.log
 .env
 .env.*
+.vercel/
 dist/qa-*.html
 *.tar.gz
 *.zip

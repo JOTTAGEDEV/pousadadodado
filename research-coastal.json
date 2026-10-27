@@ -86,6 +86,21 @@
         372
       ],
       "size_bytes": 26736
+    },
+    {
+      "path": "dist/assets/pinheira-aerea.webp",
+      "subject": "Vista aérea da Praia de Cima, na Pinheira, em Palhoça",
+      "source_page": "https://vitrinepinheira.com.br/praias/praia-de-cima",
+      "source_asset": "https://vitrinepinheira.com.br/fotos/praias/praia_de_cima2.jpeg",
+      "dimensions": [
+        4032,
+        3024
+      ],
+      "capture_date": null,
+      "photographer": null,
+      "license": null,
+      "processing": "Conversão para WebP de alta qualidade, sem alterar a paisagem.",
+      "retrieved": "2026-10-26"
     }
   ],
   "official_links": {

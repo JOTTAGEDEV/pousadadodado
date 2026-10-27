@@ -17,7 +17,7 @@
     {src:'casa-04.jpg', alt:'Quarto da casa com piscina', category:'casa'},
     {src:'ap01-07.jpg', alt:'Quartos do apartamento 01', category:'apartamentos'},
     {src:'casa-06.jpg', alt:'Espaço gourmet da casa com piscina', category:'casa'},
-    {src:'hero-beach.webp', alt:'Vista aérea da praia de Ponta do Papagaio', category:'regiao'},
+    {src:'pinheira-aerea.webp', alt:'Vista aérea da Praia de Cima, na Pinheira', category:'regiao'},
     {src:'casa-02.jpg', alt:'Piscina e espreguiçadeiras da casa', category:'casa'},
     {src:'ap03-02.jpg', alt:'Cozinha e interior do apartamento 03', category:'apartamentos'},
     {src:'coastal-guarda.webp', alt:'Costão e mar na Guarda do Embaú', category:'regiao'}

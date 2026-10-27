@@ -1,0 +1,7 @@
+.git/
+.openai/
+docs/
+research-*.json
+dist/qa-*.html
+*.zip
+*.tar.gz
