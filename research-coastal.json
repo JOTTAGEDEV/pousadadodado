@@ -1,0 +1,99 @@
+{
+  "assets": [
+    {
+      "path": "dist/assets/hero-beach.webp",
+      "subject": "Vista aérea da Praia Ponta do Papagaio; faixa superior branca com título embutido",
+      "recommended_use": "hero ou seção de destino; usar recorte CSS para ocultar faixa branca",
+      "source_page": "https://www.airbnb.com.br/rooms/47890395",
+      "also_on": "https://www.airbnb.com.br/rooms/47986714",
+      "source_asset": "https://a0.muscache.com/im/pictures/69a32081-b450-4641-903e-5f580e30d03e.jpg",
+      "photographer": null,
+      "capture_date": null,
+      "retrieved": "2026-10-26",
+      "source_context": "Anúncios públicos da própria Pousada do Dado; nenhuma data de captura informada",
+      "dimensions": [
+        1200,
+        879
+      ],
+      "size_bytes": 48471,
+      "original_download_filename": "coastal-listing-ap01-69a32081.jpg",
+      "processing": "Redimensionamento e conversão para WebP; enquadramento por CSS no site."
+    },
+    {
+      "path": "dist/assets/coastal-papagaio-2015.webp",
+      "subject": "Ponta do Papagaio, vista da beira-mar em cores com árvore à esquerda",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ponta_do_Papagaio_(21395352284).jpg",
+      "source_asset": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ponta_do_Papagaio_%2821395352284%29.jpg",
+      "photographer": "Otávio Nogueira",
+      "capture_date": "2015-09-20",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Otávio Nogueira / Wikimedia Commons, CC BY 2.0",
+      "dimensions": [
+        6000,
+        4000
+      ],
+      "size_bytes": 6861065,
+      "original_download_filename": "coastal-papagaio-2015.jpg",
+      "processing": "Redimensionamento e conversão para WebP; enquadramento por CSS no site."
+    },
+    {
+      "path": "dist/assets/coastal-guarda.webp",
+      "subject": "Guarda do Embaú, costa rochosa e vegetação verde",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Guarda_do_Emba%C3%BA_-_Palho%C3%A7a_-_Santa_Catarina.jpg",
+      "source_asset": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Guarda_do_Emba%C3%BA_-_Palho%C3%A7a_-_Santa_Catarina.jpg",
+      "photographer": "Emilio Coatti",
+      "capture_date": "2012-11-18",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Emilio Coatti / Wikimedia Commons, CC BY-SA 3.0",
+      "dimensions": [
+        2592,
+        1944
+      ],
+      "size_bytes": 1435167,
+      "original_download_filename": "coastal-guarda.jpg",
+      "processing": "Redimensionamento e conversão para WebP; enquadramento por CSS no site."
+    },
+    {
+      "path": "dist/assets/coastal-pinheira-sunset.webp",
+      "subject": "Praia da Pinheira ao pôr do sol, barco na areia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Praia_Da_Pinheira_Sc_(90817009).jpeg",
+      "source_asset": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Praia_Da_Pinheira_Sc_%2890817009%29.jpeg",
+      "photographer": "Eliezer Pedroso",
+      "capture_date": "2014-02-22",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Eliezer Pedroso / Wikimedia Commons, CC BY 3.0",
+      "dimensions": [
+        2048,
+        1365
+      ],
+      "size_bytes": 896635,
+      "original_download_filename": "coastal-pinheira-color.jpeg",
+      "processing": "Redimensionamento e conversão para WebP; enquadramento por CSS no site."
+    },
+    {
+      "path": "dist/assets/logo-oficial-linktree.jpeg",
+      "subject": "Logo oficial da Pousada do Dado: sol laranja/amarelo, casa laranja, pássaros, ondas azuis e lettering preto",
+      "source_page": "https://linktr.ee/pousadadodado",
+      "source_asset": "https://ugc.production.linktr.ee/ec6c07bc-0d28-47ed-adc2-15ba9321d8d7_LOGO-Pousada-do-Dado.pdf.jpeg",
+      "source_context": "profilePictureUrl no HTML público do perfil oficial; nome original LOGO-Pousada-do-Dado.pdf.jpeg",
+      "capture_date": null,
+      "note": "O arquivo original é quadrado e já tem parte das letras laterais cortadas; não reconstruí nem inventei detalhes.",
+      "dimensions": [
+        372,
+        372
+      ],
+      "size_bytes": 26736
+    }
+  ],
+  "official_links": {
+    "profile": "https://linktr.ee/pousadadodado",
+    "booking": "https://www.booking.com/Share-8Aktoa",
+    "whatsapp": "https://wa.me/message/WNFAFEKCLRZCN1",
+    "airbnb_apartment": "https://www.airbnb.com.br/rooms/47890395",
+    "airbnb_house": "https://www.airbnb.com.br/rooms/54104523"
+  },
+  "recent_photos": "No indexed 2025/2026 Instagram posts were found in a bounded search; Airbnb photos have no capture date in extracted metadata."
+}
