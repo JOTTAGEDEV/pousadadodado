@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T21:14:05.069Z",
+  "title": "Design System: Pousada do Dado",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Laranja"
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Grafite"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Superfície"
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Branco suave"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Texto secundário"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Abertura",
+        "purpose": "Título principal em DM Sans local."
+      }
+    },
+    "shadows": [
+      {
+        "name": "whatsapp",
+        "value": "0 6px 22px #0003",
+        "purpose": "Botão flutuante."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-transition",
+        "value": "background .25s,transform .25s,color .25s",
+        "purpose": "Estados dos botões."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "680px"
+      },
+      {
+        "name": "booking-stack",
+        "value": "1100px"
+      }
+    ],
+    "sourceFiles": [
+      "dist/styles.css",
+      "dist/redesign.css",
+      "dist/index.html"
+    ],
+    "notes": [
+      "Only observed implementation values; no synthesized tonal ramps."
+    ]
+  },
+  "components": [
+    {
+      "name": "Reserva",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal laranja.",
+      "html": "<button class=\"ds-primary\">Consultar no WhatsApp</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:14px 25px;font:500 14px/1.3 'DM Sans',Arial,sans-serif;border:0;border-radius:6px;background:var(--gold,#ff934f);color:#242628;cursor:pointer;transition:background .25s}.ds-primary:hover{background:#ffab75}.ds-primary:focus-visible{outline:2px solid var(--gold,#ff934f);outline-offset:6px}"
+    },
+    {
+      "name": "Contato",
+      "kind": "button",
+      "refersTo": "button-contact",
+      "description": "Botão escuro da seção laranja.",
+      "html": "<button class=\"ds-contact\">Consultar disponibilidade</button>",
+      "css": ".ds-contact{min-height:50px;padding:14px 25px;font:500 14px/1.3 'DM Sans',Arial,sans-serif;border:0;border-radius:6px;background:#292b2d;color:#faf9f6;cursor:pointer}.ds-contact:hover{background:#292b2d}.ds-contact:focus-visible{outline:2px solid var(--gold,#ff934f);outline-offset:6px}"
+    },
+    {
+      "name": "Data",
+      "kind": "input",
+      "description": "Campo nativo de data no formulário.",
+      "html": "<label class=\"ds-label\">Chegada<input class=\"ds-date\" type=\"date\"></label>",
+      "css": ".ds-label{display:grid;gap:6px;font:14px 'DM Sans',Arial,sans-serif;color:#faf9f6}.ds-date{font:16px 'DM Sans',Arial,sans-serif;min-height:48px;background:#343638;color:#faf9f6;color-scheme:dark}.ds-date:focus-visible{outline:2px solid var(--gold,#ff934f);outline-offset:6px}"
+    },
+    {
+      "name": "Navegação",
+      "kind": "nav",
+      "description": "Links do cabeçalho.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#a-pousada\">A pousada</a><a href=\"#acomodacoes\">Acomodações</a></nav>",
+      "css": ".ds-nav{display:flex;gap:24px;font:13px 'DM Sans',Arial,sans-serif;background:#292b2d;color:#faf9f6}.ds-nav a{padding:12px 0;color:inherit;text-decoration:none}.ds-nav a:hover{text-decoration:underline;text-underline-offset:8px}.ds-nav a:focus-visible{outline:2px solid var(--gold,#ff934f);outline-offset:6px}"
+    },
+    {
+      "name": "Capacidade",
+      "kind": "chip",
+      "description": "Rótulo sobre fotografia de acomodação.",
+      "html": "<span class=\"ds-badge\">ATÉ 4 HÓSPEDES</span>",
+      "css": ".ds-badge{display:inline-block;padding:8px 12px;font:11px/1.5 'DM Sans',Arial,sans-serif;background:var(--paper,#292b2d);color:var(--ink,#faf9f6)}"
+    }
+  ],
+  "narrative": {
+    "overview": "Grafite e laranja, conforme a direção escolhida. Fotografias reais das acomodações e do destino recebem mais espaço que elementos decorativos. A marca existente permanece no cabeçalho e no rodapé.",
+    "dos": [
+      "Do manter a paleta grafite e laranja e a marca da pousada.",
+      "Do usar fotografias reais e rótulos claros nas ações de reserva."
+    ],
+    "donts": [
+      "Don't adicionar avaliações ou depoimentos inventados.",
+      "Don't retornar a slogans em itálico ou texto claro sobre a superfície clara do bloco da casa."
+    ]
+  }
+}

@@ -4,13 +4,13 @@ Site institucional da Pousada do Dado, em Ponta do Papagaio, Palhoça, Santa Cat
 
 Página responsiva em português, construída com HTML, CSS e JavaScript, sem dependências de execução ou etapa de compilação.
 
-![Prévia do site](docs/preview.jpg)
+
 
 ## Experiência
 
 - Logo obtida do perfil oficial da pousada no Linktree, agora com fundo transparente em PNG.
 - Fotografia aérea da Praia de Cima, na Pinheira, em 4032 × 3024 pixels, e fotos reais das acomodações nos anúncios da pousada no Airbnb.
-- Movimento suave no fundo durante a rolagem, entradas de seções e revelação das fotografias.
+- Visual grafite e laranja com fotografia real, navegação acessível e opções de reserva em destaque.
 - Preferência do sistema por movimento reduzido respeitada.
 - Acomodações com links próprios para os apartamentos 01, 02 e 03 e para a casa com piscina.
 - Galeria com filtros, ampliação, navegação pelo teclado e gesto de deslizar no celular.

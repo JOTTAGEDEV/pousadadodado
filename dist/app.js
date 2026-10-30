@@ -26,7 +26,7 @@
   let activePhoto = 0;
   let opener = null;
   let ticking = false;
-  const parallax = $$('[data-parallax]');
+  const parallax = [];
 
   const revealObserver = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -36,7 +36,7 @@
       }
     });
   }, {threshold:0.08, rootMargin:'0px 0px -25px 0px'}) : null;
-  if (revealObserver) {
+  if (false && revealObserver) {
     document.body.classList.add('motion-ready');
     $$('.reveal, .image-reveal').forEach(el => revealObserver.observe(el));
   }
@@ -145,6 +145,9 @@
     $('#form-error').textContent = '';
     const message = `Olá! Conheci a Pousada do Dado pelo site e gostaria de consultar valores e disponibilidade.\n\nChegada: ${displayDate(checkin)}\nSaída: ${displayDate(checkout)}\nHóspedes: ${guests}\nAcomodação: ${accommodation}\n\nPodem me passar as opções e condições?`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    let fallback = form.querySelector('.whatsapp-fallback');
+    if (!fallback) { fallback = document.createElement('a'); fallback.className = 'whatsapp-fallback text-link'; fallback.target = '_blank'; fallback.rel = 'noopener noreferrer'; form.append(fallback); }
+    fallback.href = url; fallback.textContent = 'Abrir mensagem no WhatsApp';
     const win = window.open(url, '_blank');
     if (win) win.opener = null;
     else window.location.assign(url);

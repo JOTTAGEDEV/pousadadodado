@@ -7,3 +7,6 @@ node_modules/
 dist/qa-*.html
 *.tar.gz
 *.zip
+
+.impeccable/review/
+.impeccable/cache/
