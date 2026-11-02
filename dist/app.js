@@ -10,18 +10,79 @@
   const quickForm = $('#quick-booking');
   const lightbox = $('#lightbox');
   const credits = $('#credits-dialog');
-  const phone = '5548999712106';
+  const phone = '5548999465803';
   const gallery = [
-    {src:'casa-01.jpg', alt:'Casa com piscina e espaço gourmet ao anoitecer', category:'casa'},
-    {src:'ap02-principal.jpg', alt:'Fachada dos apartamentos da Pousada do Dado', category:'apartamentos'},
-    {src:'casa-04.jpg', alt:'Quarto da casa com piscina', category:'casa'},
-    {src:'ap01-07.jpg', alt:'Quartos do apartamento 01', category:'apartamentos'},
-    {src:'casa-06.jpg', alt:'Espaço gourmet da casa com piscina', category:'casa'},
-    {src:'pinheira-aerea.webp', alt:'Vista aérea da Praia de Cima, na Pinheira', category:'regiao'},
-    {src:'casa-02.jpg', alt:'Piscina e espreguiçadeiras da casa', category:'casa'},
-    {src:'ap03-02.jpg', alt:'Cozinha e interior do apartamento 03', category:'apartamentos'},
-    {src:'coastal-guarda.webp', alt:'Costão e mar na Guarda do Embaú', category:'regiao'}
-  ];
+  {
+    "src": "piscina-atual.webp",
+    "alt": "Piscina e área coberta com bancos de madeira",
+    "category": "casa",
+    "width": 1500,
+    "height": 2000
+  },
+  {
+    "src": "banheiro-atual.webp",
+    "alt": "Banheiro com box de vidro e bancada",
+    "category": "apartamentos",
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "src": "cozinha-atual.webp",
+    "alt": "Cozinha equipada com churrasqueira e mesa",
+    "category": "apartamentos",
+    "width": 720,
+    "height": 1280
+  },
+  {
+    "src": "quarto-sacada-atual.webp",
+    "alt": "Quarto com cama de casal, cama elevada e acesso à sacada",
+    "category": "apartamentos",
+    "width": 960,
+    "height": 1280
+  },
+  {
+    "src": "quarto-atual.webp",
+    "alt": "Quarto com cama de casal e cama elevada de madeira",
+    "category": "apartamentos",
+    "width": 960,
+    "height": 1280
+  },
+  {
+    "src": "jantar-atual.webp",
+    "alt": "Mesa de jantar com cadeiras amarelas e cozinha",
+    "category": "apartamentos",
+    "width": 900,
+    "height": 1600
+  },
+  {
+    "src": "fachada-lateral-atual.webp",
+    "alt": "Fachada cinza da pousada com sacada",
+    "category": "apartamentos",
+    "width": 750,
+    "height": 1000
+  },
+  {
+    "src": "fachada-atual.webp",
+    "alt": "Fachada atual da Pousada do Dado e portão de entrada",
+    "category": "apartamentos",
+    "width": 750,
+    "height": 1000
+  },
+  {
+    "src": "pinheira-aerea.webp",
+    "alt": "Vista aérea da Praia de Cima, na Pinheira",
+    "category": "regiao",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "src": "coastal-guarda.webp",
+    "alt": "Costão e mar na Guarda do Embaú",
+    "category": "regiao",
+    "width": 1440,
+    "height": 1080
+  }
+];
   let filtered = [...gallery];
   let activePhoto = 0;
   let opener = null;
@@ -136,8 +197,18 @@
     const accommodation = data.get('accommodation') || 'Ainda não escolhi';
     const arrival = $('[name="checkin"]', form);
     const departure = $('[name="checkout"]', form);
-    if (!checkin || checkin < today) {arrival.setCustomValidity('Escolha uma data de chegada a partir de hoje.');arrival.reportValidity();return;}
-    if (!checkout || checkout <= checkin) {departure.setCustomValidity('A saída precisa ser depois da chegada.');departure.reportValidity();return;}
+    if (!checkin || checkin < today) {
+      const message = 'Escolha uma data de chegada a partir de hoje.';
+      if (window.PousadaDates) window.PousadaDates.open(form, 'checkin', message);
+      else {arrival.setCustomValidity(message);arrival.reportValidity();}
+      return;
+    }
+    if (!checkout || checkout <= checkin) {
+      const message = 'A saída precisa ser depois da chegada.';
+      if (window.PousadaDates) window.PousadaDates.open(form, 'checkout', message);
+      else {departure.setCustomValidity(message);departure.reportValidity();}
+      return;
+    }
     if (guests > 4 && /^Apartamento/.test(accommodation)) {
       $('#form-error').textContent = 'Os apartamentos acomodam até 4 pessoas. Para seu grupo, escolha a casa com piscina ou consulte mais de uma unidade.';
       return;
@@ -175,7 +246,7 @@
       button.setAttribute('aria-label', 'Ampliar: ' + photo.alt);
       button.style.animationDelay = `${Math.min(index,5)*45}ms`;
       const img = document.createElement('img');
-      img.src = '/assets/' + photo.src;img.alt = photo.alt;img.loading = 'lazy';img.width = 1000;img.height = 1000;
+      img.src = '/assets/' + photo.src;img.alt = photo.alt;img.loading = 'lazy';img.width = photo.width;img.height = photo.height;
       button.append(img);
       button.addEventListener('click', () => {activePhoto = index;updateLightbox();showDialog(lightbox,button);});
       grid.append(button);

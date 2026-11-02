@@ -57,9 +57,9 @@ FONT-LICENSES.md
 
 ## Contato e reservas
 
-O telefone e endereço foram conferidos no perfil público `@pousadadodado`:
+O telefone foi atualizado e confirmado pelo proprietário em 02/11/2026; o endereço foi preservado do site anterior:
 
-- Telefone/WhatsApp: +55 48 99971-2106.
+- Telefone/WhatsApp: +55 48 99946-5803.
 - Rua 200, nº 300, Ponta do Papagaio, Palhoça–SC.
 - Instagram: https://www.instagram.com/pousadadodado/
 - Links oficiais: https://linktr.ee/pousadadodado
@@ -95,3 +95,7 @@ As imagens da região foram apenas redimensionadas e convertidas para WebP. O en
 ## Verificação
 
 Conferência em navegador em tela de computador e em área de 390 × 844 px: navegação móvel, galeria e filtros, abertura e fechamento de modais, carregamento de imagens e ausência de rolagem horizontal. A validação do formulário foi conferida para grupos acima da capacidade dos apartamentos. Verificações locais de sintaxe JavaScript, caminhos de arquivos, IDs, âncoras e JSON-LD também foram executadas.
+
+## Atualização de novembro de 2026
+
+Oito fotos fornecidas pelo proprietário foram adicionadas à abertura, apresentação da pousada e galeria. A origem e as dimensões estão em `research-owner-photos.json`. As fotos interiores novas não foram vinculadas a um número de apartamento sem confirmação; as fichas individuais mantêm imagens dos respectivos anúncios. Contato e reservas: +55 48 99946-5803.

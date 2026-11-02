@@ -1,0 +1,98 @@
+[
+  {
+    "file": "piscina-atual.webp",
+    "source": "Fotografia fornecida pelo proprietário no chat em 2026-11-02",
+    "source_file": "codex-clipboard-4ecbe32d-5924-4ca9-b8fb-e97290bf93ea.jpg",
+    "alt": "Piscina e área coberta com bancos de madeira",
+    "width": 1500,
+    "height": 2000,
+    "bytes": 360062,
+    "original_width": 3120,
+    "original_height": 4160,
+    "processing": "Orientação EXIF, redução proporcional e conversão WebP; sem alteração de conteúdo."
+  },
+  {
+    "file": "banheiro-atual.webp",
+    "source": "Fotografia fornecida pelo proprietário no chat em 2026-11-02",
+    "source_file": "codex-clipboard-449edf3c-6f81-43bb-8bbc-ee5936621dad.jpg",
+    "alt": "Banheiro com box de vidro e bancada",
+    "width": 720,
+    "height": 1280,
+    "bytes": 101340,
+    "original_width": 720,
+    "original_height": 1280,
+    "processing": "Orientação EXIF, redução proporcional e conversão WebP; sem alteração de conteúdo."
+  },
+  {
+    "file": "cozinha-atual.webp",
+    "source": "Fotografia fornecida pelo proprietário no chat em 2026-11-02",
+    "source_file": "codex-clipboard-becc8b36-4f76-4b23-a916-d6814bb36529.jpg",
+    "alt": "Cozinha equipada com churrasqueira e mesa",
+    "width": 720,
+    "height": 1280,
+    "bytes": 104002,
+    "original_width": 720,
+    "original_height": 1280,
+    "processing": "Orientação EXIF, redução proporcional e conversão WebP; sem alteração de conteúdo."
+  },
+  {
+    "file": "quarto-sacada-atual.webp",
+    "source": "Fotografia fornecida pelo proprietário no chat em 2026-11-02",
+    "source_file": "codex-clipboard-6835a692-01b1-4d53-8829-45e3052d6134.jpg",
+    "alt": "Quarto com cama de casal, cama elevada e acesso à sacada",
+    "width": 960,
+    "height": 1280,
+    "bytes": 86414,
+    "original_width": 960,
+    "original_height": 1280,
+    "processing": "Orientação EXIF, redução proporcional e conversão WebP; sem alteração de conteúdo."
+  },
+  {
+    "file": "quarto-atual.webp",
+    "source": "Fotografia fornecida pelo proprietário no chat em 2026-11-02",
+    "source_file": "codex-clipboard-d0cc96fa-d873-4d20-9cb0-2d7a7a469e1e.jpg",
+    "alt": "Quarto com cama de casal e cama elevada de madeira",
+    "width": 960,
+    "height": 1280,
+    "bytes": 59824,
+    "original_width": 960,
+    "original_height": 1280,
+    "processing": "Orientação EXIF, redução proporcional e conversão WebP; sem alteração de conteúdo."
+  },
+  {
+    "file": "jantar-atual.webp",
+    "source": "Fotografia fornecida pelo proprietário no chat em 2026-11-02",
+    "source_file": "codex-clipboard-97efc14c-6663-4202-a933-572f15e5aa35.jpg",
+    "alt": "Mesa de jantar com cadeiras amarelas e cozinha",
+    "width": 900,
+    "height": 1600,
+    "bytes": 119520,
+    "original_width": 900,
+    "original_height": 1600,
+    "processing": "Orientação EXIF, redução proporcional e conversão WebP; sem alteração de conteúdo."
+  },
+  {
+    "file": "fachada-lateral-atual.webp",
+    "source": "Fotografia fornecida pelo proprietário no chat em 2026-11-02",
+    "source_file": "codex-clipboard-1f7cfc78-f189-47a6-be05-ea285a6f9962.png",
+    "alt": "Fachada cinza da pousada com sacada",
+    "width": 750,
+    "height": 1000,
+    "bytes": 147028,
+    "original_width": 750,
+    "original_height": 1000,
+    "processing": "Orientação EXIF, redução proporcional e conversão WebP; sem alteração de conteúdo."
+  },
+  {
+    "file": "fachada-atual.webp",
+    "source": "Fotografia fornecida pelo proprietário no chat em 2026-11-02",
+    "source_file": "codex-clipboard-6ad81fa4-d67d-4107-a9da-cb79823cb47c.png",
+    "alt": "Fachada atual da Pousada do Dado e portão de entrada",
+    "width": 750,
+    "height": 1000,
+    "bytes": 134528,
+    "original_width": 750,
+    "original_height": 1000,
+    "processing": "Orientação EXIF, redução proporcional e conversão WebP; sem alteração de conteúdo."
+  }
+]

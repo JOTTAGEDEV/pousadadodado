@@ -6,3 +6,5 @@ body{font-size:16px}h1,h2,h3{font-weight:600;letter-spacing:-.035em;line-height:
 .hero{color:var(--ink)}.hero-property figcaption{color:var(--ink)}.house-feature,.house-copy{color:var(--ink)}.stays-note{color:var(--muted)}.photo-badge{color:var(--ink)}
 
 .house{background:#292b2d;color:var(--ink)}.house-footnote{color:var(--muted)}.destination-caption{color:#fff}.destination-card{color:#fff}.whatsapp-fallback{font-size:13px;margin-top:12px}.quick-booking:has(.whatsapp-fallback){flex-wrap:wrap}
+
+.lightbox,.lightbox button,.lightbox figcaption{color:#faf9f6}.lightbox button{border-color:#c4c5c6}.lightbox-close,.lightbox-prev,.lightbox-next{min-width:44px;min-height:44px}.lightbox figcaption{font-size:13px}
