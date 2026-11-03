@@ -225,6 +225,9 @@
   }
   quickForm.addEventListener('submit', consult);
   reservationForm.addEventListener('submit', consult);
+  [quickForm, reservationForm].forEach(form => {
+    form.addEventListener('change', () => form.querySelector('.whatsapp-fallback')?.remove());
+  });
   $('[name="accommodation"]', reservationForm).addEventListener('change', () => $('#form-error').textContent = '');
   $('[name="guests"]', reservationForm).addEventListener('change', () => $('#form-error').textContent = '');
 

@@ -78,7 +78,7 @@ Controles e fotos da galeria têm cantos discretos; fotos de acomodações e fai
 
 ## Components
 
-Botões principais usam laranja e texto escuro; hover clareia o laranja. O encerramento usa botão grafite sobre fundo laranja. Campos de datas e hóspedes usam o esquema nativo escuro. O formulário informa que a consulta pelo WhatsApp não confirma a reserva. Links externos de Airbnb e Booking complementam o contato direto. Galeria tem filtros e visualização ampliada; perguntas frequentes usam details/summary. Os elementos de conteúdo permanecem visíveis sem animações de entrada; a preferência por movimento reduzido é respeitada.
+Botões principais usam laranja e texto escuro; hover clareia o laranja. O encerramento usa botão grafite sobre fundo laranja. Datas usam calendário próprio em português, seleção de período com destaque laranja e resumo de noites. O painel se expande dentro do formulário para caber no celular e no diálogo. Hóspedes usa seleção nativa escura. O formulário informa que a consulta pelo WhatsApp não confirma a reserva. Links externos de Airbnb e Booking complementam o contato direto. Galeria tem filtros e visualização ampliada; perguntas frequentes usam details/summary. Os elementos de conteúdo permanecem visíveis sem animações de entrada; a preferência por movimento reduzido é respeitada.
 
 ## Do's and Don'ts
 

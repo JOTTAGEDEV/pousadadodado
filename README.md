@@ -99,3 +99,7 @@ Conferência em navegador em tela de computador e em área de 390 × 844 px: nav
 ## Atualização de novembro de 2026
 
 Oito fotos fornecidas pelo proprietário foram adicionadas à abertura, apresentação da pousada e galeria. A origem e as dimensões estão em `research-owner-photos.json`. As fotos interiores novas não foram vinculadas a um número de apartamento sem confirmação; as fichas individuais mantêm imagens dos respectivos anúncios. Contato e reservas: +55 48 99946-5803.
+
+## Publicação na Vercel
+
+Projeto `pousadadodado`, equipe `nz-dev2`. Endereço de produção: https://pousadadodado.vercel.app. O calendário permite escolher chegada e saída, mostra as noites e bloqueia datas passadas. Alterar datas ou hóspedes invalida a mensagem anterior do WhatsApp.
