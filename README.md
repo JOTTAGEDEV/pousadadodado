@@ -102,4 +102,6 @@ Oito fotos fornecidas pelo proprietário foram adicionadas à abertura, apresent
 
 ## Publicação na Vercel
 
-Projeto `pousadadodado`, equipe `nz-dev2`. Endereço de produção: https://pousadadodado.vercel.app. O calendário permite escolher chegada e saída, mostra as noites e bloqueia datas passadas. Alterar datas ou hóspedes invalida a mensagem anterior do WhatsApp.
+Projeto `pousadadodado`, equipe `nz-dev2`. Endereço de produção: https://pousadadodado.com. O calendário permite escolher chegada e saída, mostra as noites e bloqueia datas passadas. Alterar datas ou hóspedes invalida a mensagem anterior do WhatsApp.
+
+O domínio `pousadadodado.com` está conectado ao projeto. `www.pousadadodado.com` redireciona com HTTP 308 para a versão sem www. Endereços canonical, Open Graph e dados estruturados usam o domínio próprio. DNS e certificado HTTPS são gerenciados pela Vercel.
